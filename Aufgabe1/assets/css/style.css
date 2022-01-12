@@ -54,12 +54,14 @@ header nav a{
 /*Main*/
 /*1*/
 main section:nth-of-type(1){
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg");
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),*/ url("../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg");
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #333;
+    background-blend-mode: overlay;
 }
 
 
